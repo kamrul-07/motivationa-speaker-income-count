@@ -1,0 +1,19 @@
+.grid-style{
+    display: grid;
+    grid-template-columns: repeat(3fr,1fr);
+}
+
+.img-style{
+    width: 250px;
+    height: 250px;
+}
+.card-style{
+    background-color: rgba(220, 236, 195, 0.699);
+}
+.card{
+    transition: 0.30s;
+}
+.card:hover{
+    transform: scale(1.02);
+    z-index: 1;
+}
