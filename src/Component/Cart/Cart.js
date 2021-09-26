@@ -18,7 +18,13 @@ const Cart = (props) => {
                <div class="card">
                <h5>Persons Added:{props.cart.length}</h5>
                <h5>Total:${total.toFixed(2)}</h5>
-                <h5><div className="border border-primary">{name}</div></h5>
+               <ul style={{ listStyle: 'none' }}>{
+                   cart.map(person => <li
+                   key={person.name}  className="fw-bold fs-5 border border-3 rounded-3 border-info mb-2"
+                   >{person.name}
+                   </li>
+                    )
+                   }</ul>
                 
                </div>
             </div>
