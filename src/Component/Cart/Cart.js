@@ -17,7 +17,7 @@ const Cart = (props) => {
             <div class="col">
                <div class="card">
                <h5>Persons Added:{props.cart.length}</h5>
-               <h5>Total:${total}</h5>
+               <h5>Total:${total.toFixed(2)}</h5>
                 <h5><div className="border border-primary">{name}</div></h5>
                 
                </div>
