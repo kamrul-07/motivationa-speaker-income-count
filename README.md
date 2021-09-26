@@ -1,5 +1,12 @@
-# Top 6 Motivational Speakers
+# Top 6 Motivational Speakers 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link 
+[Visit the link](https://gifted-beaver-623a60.netlify.app/)
 
+# About this site
 
+###### In the website,you can notice :
+
+..*You can see the information of some motivational speakers Bio-grapy
+..*You can see how much dollars per-month income of a popular motivational speaker
+..*You can see how much total dollars income to add the card board
